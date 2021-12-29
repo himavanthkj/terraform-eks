@@ -1,7 +1,7 @@
 terraform {
 	backend "s3" {
-	bucket = "qa-eks-sneha-test123"
+	bucket = "himak8backendbuckeet"
 	key = "QA/terraform.tfstate"
-	region = "us-west-2"
+	region = "us-east-1"
 	}
 }
